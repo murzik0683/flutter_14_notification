@@ -111,7 +111,9 @@ class _NotificationPageState extends State<NotificationPage> {
                     );
                   },
                   heroTag: 3,
-                  label: const Text('Напоминание каждый час periodicallyShow'),
+                  label: const Text(
+                    'Каждый час periodicallyShow',
+                  ),
                   backgroundColor: Colors.purple.shade400,
                 ),
                 FloatingActionButton.extended(
